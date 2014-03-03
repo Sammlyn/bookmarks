@@ -23,7 +23,7 @@ describe BookmarksController do
   # This should return the minimal set of attributes required to create a valid
   # Bookmark. As you add validations to Bookmark, be sure to
   # adjust the attributes here as well.
-  let(:valid_attributes) { { "url" => "MyString" } }
+  let(:valid_attributes) { { "url" => "example.com" , "name" => "example" , "date_saved" => "2014-03-01" } }
 
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
